@@ -16,7 +16,7 @@ if _platform in ["linux", "linux2", "darwin"]: # darwin is _platform name for Ma
 elif _platform == "win32":
     # Windows
     try:
-       import fcrypt # Try importing the fcrypt module
+       import fcrypt # Try importing the fcrypt module to help you 
     except ImportError:
        print 'Please install fcrypt if you are on Windows'
 
